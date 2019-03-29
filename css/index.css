@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav a { 
+color: black;
+}
+
+
+nav .header-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
