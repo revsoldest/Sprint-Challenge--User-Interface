@@ -74,6 +74,7 @@ p {
 }
 
 .lambda-logo {
+    margin-bottom: 2%;
     padding: 1%;
 }
 
@@ -88,6 +89,7 @@ padding: 3%;
 .header-img {
     display: flex;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
 
