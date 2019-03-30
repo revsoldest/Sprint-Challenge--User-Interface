@@ -172,3 +172,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/***** about page css *****/
+
+
+.top-content-about {
+border: 1px solid red;
+}
+
+
+
+.left-content {
+    border: 1px solid red;
+}
+
+
+
+.right-content {
+    border: 1px solid red;
+}
+
+
+
+
+.bottom-content-about {
+    border: 1px solid red;
+}
