@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+
+.main-nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.lambda-logo {
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.main-nav a { 
+color: black;
+text-decoration: none;
+padding: 3%;
+
+}
+
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -129,6 +157,7 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -143,4 +172,86 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/***** about page css *****/
+
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 20%;
+    padding: 0 2%; 
+    padding-bottom: 20px;  
+}
+
+
+.mid-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.text-boxs {
+    padding-top: 5%;
+    margin-bottom: 3%;}
+
+.left-content {
+    border-bottom: 2px dotted black;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    margin-right: 0 3%;
+    
+}
+
+
+
+.right-content {
+    border-bottom: 2px dotted black;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    margin-left: 0 3%;
+    
+    
+}
+
+
+
+.div-boxs button {
+    background: white;
+    margin-top: 15px;
+    padding: 8px 20px;
+    font-size: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+
+
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 3% 20% 2% 20%;
+    padding: 0 1%; 
+    padding-bottom: 20px;  
+
+}
+
+
+.footer-about {
+    width: 60%;
+    background: black;
+    margin: 0 20%;
 }
